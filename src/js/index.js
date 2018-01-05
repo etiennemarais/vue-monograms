@@ -14,6 +14,6 @@ const app = new Vue({
     el: '#app',
     render: h => h(App),
     created () {
-        console.log('App created');
+        console.log('Hi there. You can hire me. <hello@etiennemarais.co.za>');
     }
 });
