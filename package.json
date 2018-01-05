@@ -2,8 +2,30 @@
   "name": "vue-monograms",
   "version": "0.1",
   "description": "Vue Component to generate a monogram svg shape with letters in that resembles your first/last name",
-  "main": "index.js",
-  "author": "Etienne Marais <hello@etiennemarais.co.za>",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "monograms",
+    "profile",
+    "picture"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-monograms.js",
+  "unpkg": "dist/vue-monograms.js",
+  "module": "index.js",
+  "author": {
+    "name": "Etienne Marais",
+    "email": "hello@etiennemarais.co.za"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etiennemarais/vue-monograms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/etiennemarais/vue-monograms/issues"
+  },
+  "homepage": "https://etiennemarais.github.io/vue-monograms",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -12,7 +34,7 @@
     "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "start": "yarn dev & http-server docs/"
   },
-  "dependencies": {
+  "devDependencies": {
     "bulma": "^0.6.1",
     "cross-env": "^5.1.3",
     "http-server": "^0.10.0",
