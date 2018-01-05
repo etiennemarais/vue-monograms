@@ -1,2 +1,2 @@
-import plugin from './dist/vue-monogram';
+import plugin from './dist/vue-monograms';
 export default plugin
