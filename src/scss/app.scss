@@ -1,0 +1,67 @@
+@charset "utf-8";
+/** Vendors */
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "./shared";
+@import "node_modules/bulma/sass/base/_all";
+@import "node_modules/bulma/sass/elements/_all";
+@import "node_modules/bulma/sass/grid/_all";
+
+/** Mixins */
+@import "./mixins/spacing";
+
+/** Application Specific */
+html {
+    background-color: $white-bis;
+}
+
+body {
+    height: 100vh;
+    padding-top: 85px;
+}
+
+.app {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $family-serif;
+}
+
+.monogram {
+    .text {
+        fill: $black;
+        font-family: $family-serif;
+        font-weight: $weight-bold;
+        font-size: $text-2xl;
+    }
+}
+
+.divider {
+    @extend hr;
+    @extend .m-t-5xl;
+    @extend .m-b-2xl;
+    background-color: $white;
+    border-top: 2px solid $black;
+}
+
+.bottom {
+    @extend .p-t-5xl;
+    @extend .p-b-5xl;
+}
+
+.app {
+    pre {
+        background-color: $white-bis;
+    }
+}
+
+.love {
+    .icon {
+        color: #d43c67;
+    }
+}

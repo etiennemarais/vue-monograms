@@ -10,11 +10,12 @@
     "webpack": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "start": "yarn dev & http-server public/"
+    "start": "yarn dev & http-server docs/"
   },
   "dependencies": {
     "bulma": "^0.6.1",
     "cross-env": "^5.1.3",
+    "font-awesome": "^4.7.0",
     "http-server": "^0.10.0",
     "laravel-mix": "^1.7.2",
     "vue": "^2.5.13"
