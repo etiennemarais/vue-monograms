@@ -7,7 +7,6 @@ if (process.env.NODE_ENV === 'development') {
  * Application bootstrap
  */
 import App from './App';
-// import Monogram from '../../src/js';
 import Monogram from '../..';
 Vue.component('monogram', Monogram);
 

@@ -27,8 +27,12 @@
                         </div>
                         <div class="column is-1">&nbsp;</div>
                     </div>
+                    <div class="columns"><div class="column is-full">&nbsp;</div></div>
                     <div class="columns">
-                        <div class="column is-full">&nbsp;</div>
+                        <div class="column is-full has-text-centered">
+                            <a class="github-button" href="https://github.com/etiennemarais/vue-monograms/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork etiennemarais/vue-monograms on GitHub">Fork</a>
+                            <a class="github-button" href="https://github.com/etiennemarais/vue-monograms" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star etiennemarais/vue-monograms on GitHub">Star</a>
+                        </div>
                     </div>
                     <div class="columns">
                         <div class="column is-full">
