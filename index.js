@@ -1,2 +1,5 @@
-import plugin from './dist/vue-monograms';
-export default plugin
+import Monogram from './src/js';
+export default Monogram
+export {
+    Monogram
+}
