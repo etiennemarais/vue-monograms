@@ -1,10 +1,14 @@
 import Vue from 'vue';
-Vue.config.debug = true;
+if (process.env.NODE_ENV === 'development') {
+    Vue.config.debug = true;
+}
 
 /**
  * Application bootstrap
  */
 import App from './App';
+import Monogram from '../../src/js';
+Vue.component('monogram', Monogram);
 
 /**
  * Initialise App

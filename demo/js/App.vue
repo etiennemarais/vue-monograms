@@ -71,12 +71,8 @@ export default {
 </template>
 
 <script>
-import Monogram from './components/Monogram';
 
 export default {
-    name: "App",
-    components: {
-        Monogram,
-    }
+    name: "App"
 };
 </script>
