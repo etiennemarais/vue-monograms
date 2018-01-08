@@ -1,6 +1,6 @@
 {
   "name": "vue-monograms",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Vue Component to generate a monogram svg shape with letters in that resembles your first/last name",
   "keywords": [
     "vue",
